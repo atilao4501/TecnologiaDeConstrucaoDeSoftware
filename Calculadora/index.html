@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora V2</h1>
+    <hr />
+    <h3>Calculadora Aritmética</h3>
+    <p>
+      <label for="valor1">Valor1 (inteiro):</label>
+      <input type="text" id="valor1" /> <br />
+    </p>
+    <p>
+      <label for="operacao">Operador Arit.:</label>
+      <select name="operacao" id="operacao">
+        <option value="soma">Soma</option>
+        <option value="subtracao">Subtração</option>
+        <option value="multiplicacao">Multiplicação</option>
+        <option value="divisao">Divisão</option>
+        <option value="resto">Resto da Divisão</option>
+      </select>
+      <br />
+    </p>
+    <p>
+      <label for="valor2">Valor2 (inteiro):</label>
+      <input type="text" id="valor2" /> <br />
+    </p>
+    <label for="resultado">Resultado final:</label>
+    <output id="resultado" name="resultado"></output>
+    <br />
+    <br />
+    <input
+      type="button"
+      id="calcular"
+      value="Calcular"
+      onclick="calculadora()"
+    />
+    <script src="js/calculadora.js"></script>
+  </body>
+</html>
