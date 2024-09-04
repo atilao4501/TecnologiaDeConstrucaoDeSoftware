@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cabecalho h1 {
+  margin: 15px;
+}
+.cabecalho ul {
+  list-style-type: none;
+  display: flex;
+  margin: 15px;
+}
+
+.cabecalho li {
+  margin-right: 15px;
+}
+
+#corpo {
+  margin: 15px;
+}

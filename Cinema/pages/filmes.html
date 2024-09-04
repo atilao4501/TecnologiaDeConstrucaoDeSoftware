@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmes</title>
+    <link rel="stylesheet" href="/styles/filmes.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>SG-Cinema</h1>
+      <hr />
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./filmes.html">Filmes</a></li>
+        <li><a href="./sessoes.html">Sessões</a></li>
+        <li><a href="./salas.html">Salas</a></li>
+        <li><a href="./ingressos.html">Ingressos</a></li>
+        <li><a href="./cliente.html">Cliente</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+      </ul>
+      <hr />
+    </div>
+    <div id="corpo">
+      <h2>Filme</h2>
+      <label>Titulo:</label><br />
+      <input type="text" /><br />
+      <label>Classificação</label><br />
+      <select name="classificacao">
+        <option value="Livre">Livre</option>
+        <option value="+18">+18</option></select
+      ><br />
+      <label>Gênero</label><br />
+      <select name="genero">
+        <option value="acao">Ação</option>
+        <option value="comedia">Comédia</option></select
+      ><br />
+      <label>Resumo</label><br />
+      <textarea name="resumo" id="resumo" rows="10" cols="25"></textarea>
+    </div>
+  </body>
+</html>
