@@ -3,16 +3,6 @@
   margin: 0;
 }
 
-body {
-  height: 100%;
-  background-color: black;
-}
-.div-container {
-  background-color: black;
-  width: 100%;
-  height: 100vh;
-}
-
 .div-container h2 {
   color: wheat;
 }
@@ -34,12 +24,7 @@ body {
   margin: 15px;
 }
 
-.navbar-nav .nav-link,
-.navbar .navbar-brand {
-  color: white;
-}
-
-.navbar-nav .nav-link:hover,
-.navbar .navbar-brand:hover {
-  color: rgb(200, 199, 199);
+.Titulo {
+  text-align: center;
+  margin: 5vh;
 }
