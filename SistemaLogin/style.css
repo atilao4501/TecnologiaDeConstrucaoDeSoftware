@@ -1,0 +1,13 @@
+/* Estilos adicionais */
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#error,
+#registerError {
+  margin-top: 10px;
+}
