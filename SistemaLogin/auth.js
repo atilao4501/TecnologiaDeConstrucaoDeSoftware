@@ -44,7 +44,6 @@ class Auth {
 
 const auth = new Auth();
 
-// Função para cadastrar usuário
 function cadastrarUsuario() {
   const name = document.getElementById("name").value;
   const email = document.getElementById("emailRegister").value;
@@ -70,7 +69,6 @@ function cadastrarUsuario() {
   }
 }
 
-// Função para realizar login
 document.getElementById("loginForm").addEventListener("submit", (event) => {
   event.preventDefault();
   const email = document.getElementById("email").value;
